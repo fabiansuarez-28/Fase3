@@ -50,6 +50,7 @@ nav li {
 	display: block;
 	float: right;
 	width: 8%;
+	
 
 }
 
@@ -60,7 +61,7 @@ nav li a{
 	background: #004669;
 	margin-left: 5px;
 	text-decoration: none;
-	transition: 1s background;
+	transition: 1s all;
 
 }
 
@@ -74,19 +75,69 @@ nav li a p{
 	margin-top: 19px;
 }
 
-.conten{
-	background:;
-	height: auto;
-	width: 90%;
-	margin-left: 5%;
-	margin-top: 5%;
+
+nav ul li ul {
+ display:none;
+ width: 100%;
+ z-index: 200;
+ height: auto;
+ transition: 15s all;
+}
+nav ul li:hover>ul
+{
+	display: block;
+}
+
+nav ul ul li{
+ float:none;
+ width: 100%;
+ line-height:120%;
+
+
 }
 
 
+nav ul ul a {
+ text-align:center;
+ color:#fff;
+
+}
+
+
+
+
+
+.conten{
+    height: auto;
+    width: 71%;
+    margin-left: 26%;
+    margin-top: 9%;
+    background: #d0d0d0c4;
+    display: block;
+}
+.conten1{
+    height: auto;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 9%;
+    background: #d0d0d0c4;
+    display: block;
+}
+
+
+
+
 .conten h1{
+
+text-align: center;
+color: #e37014;
+padding: 14px;
+
+}
+.conten1 h1{
 	text-align: center;
-	color:black;
-	padding: 5px;
+color: #e37014;
+padding: 14px;
 
 }
 
@@ -97,7 +148,19 @@ nav li a p{
 
 }
 
+.conten1 h2{
+	margin-left: 5%;
+	color:#004669;
+	margin-top: 5%;
+
+}
 .conten img{
+	margin-left: 22%;
+	margin-top: 5%;
+	display: inline-block;
+}
+
+.conten1 img{
 	margin-left: 22%;
 	margin-top: 5%;
 	display: inline-block;
@@ -111,6 +174,44 @@ nav li a p{
 	font-size: 1em;
 	margin-left: 6%;
 	margin-top: 5%;
+	color: #004669;
+}
+.conten1 p{
+
+	height: 80%;
+	width: 90%;
+	font-family: inherit;
+	font-size: 1em;
+	margin-left: 6%;
+	margin-top: 5%;
+	color: #004669;
+}
+aside           
+{
+ 
+
+
+border-radius: 0em;
+text-align: center;
+position: absolute;
+
+top: 40%;
+    
+    }
+
+    aside p{
+        text-align: center;
+        color: #0e2f64;
+    }
+
+.lateral{
+
+	width: 20%;
+	background: red;
+	margin-top: 3%;
+	margin-left: 2%;
+	display: inline-block;
+	 vertical-align: top;
 }
 
 
@@ -118,7 +219,8 @@ footer{
 	background:#004669;
 	width: 100%;
 	height: 55px;
-	margin-top: 15%;
+	margin-top: 5%;
+	display:inline-block;
 }
 footer p{
 	text-align: center;
@@ -128,8 +230,8 @@ footer p{
 }
 
 iframe{
-	margin-left: 25%;
-	margin-top: 8%;
+	margin-left:20%;
+	margin-top: 6%;
 }
 
 table{
